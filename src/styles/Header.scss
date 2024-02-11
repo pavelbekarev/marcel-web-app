@@ -1,0 +1,90 @@
+@import '../styles/stylesheet.scss';
+
+// header__title constants
+$title-fontFamily: "Ubuntu-Bold";
+$text-fontFamily: "Ubuntu-Medium";
+$text-color: #fff;
+$padding__avatarInfo: 20px 25px;
+
+.header__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    // padding: 20px 0px;
+    border-bottom: 1px outset #c3c3c3;
+}
+
+
+.header__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+
+.header__content-item {
+    display: flex;
+    flex-direction: row;
+    // gap: 70px;
+}
+
+
+.header__title {
+    color: $text-color;
+    font-family: $title-fontFamily;
+    font-size: 32px;
+    padding: $padding__avatarInfo;
+}
+
+
+.item__wrapper {
+    position: relative;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border-left: 1px inset #c3c3c3;
+}
+
+.avatar__info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: $padding__avatarInfo;
+}
+
+.avatarIcon {
+    fill: #fff;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 10px;
+}
+
+.avatar__name {
+    color: $text-color;
+    font-family: $text-fontFamily;
+}
+
+
+.follow__button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+}
+
+.followPlus {
+    width: 2vh;
+    height: 2vh;
+    fill: #fff;
+    stroke: #fff;
+}
+
+.follow__text {
+    color: $text-color;
+    font-family: $text-fontFamily;
+}

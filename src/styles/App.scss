@@ -1,0 +1,24 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #07042c;
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  // border: red solid 2px;
+  padding: 0 10px;
+  border: 0.5px solid #21202c;
+  border-radius: 10px;
+}
+
